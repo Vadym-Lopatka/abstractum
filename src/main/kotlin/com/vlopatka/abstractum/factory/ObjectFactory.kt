@@ -13,10 +13,8 @@ class ObjectFactory(
         val obj = implClass.declaredConstructors.first().newInstance()
 
         /**
-         * Here I used a chain of responsibility pattern.
-         *
-         * Every DI component that would be created through @Injection
-         * will be processed once(on startup) by each implementation of the ObjectConfigurator.
+         * Every DI component created through @Injection will be processed once(on startup)
+         * by each implementation of the ObjectConfigurator.
          *
          * @see com.vlopatka.abstractum.annotation.Injection
          * @see com.vlopatka.abstractum.objectConfigurator.ObjectConfigurator
