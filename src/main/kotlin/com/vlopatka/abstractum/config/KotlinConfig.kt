@@ -1,4 +1,4 @@
-package com.vlopatka.container.config
+package com.vlopatka.abstractum.config
 
 import org.reflections.Reflections
 

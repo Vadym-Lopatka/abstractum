@@ -1,8 +1,8 @@
-package com.vlopatka.container.context
+package com.vlopatka.abstractum.context
 
-import com.vlopatka.container.annotation.Singleton
-import com.vlopatka.container.config.KotlinConfig
-import com.vlopatka.container.factory.ObjectFactory
+import com.vlopatka.abstractum.annotation.Singleton
+import com.vlopatka.abstractum.config.KotlinConfig
+import com.vlopatka.abstractum.factory.ObjectFactory
 import java.util.concurrent.ConcurrentHashMap
 
 @Suppress("UNCHECKED_CAST")

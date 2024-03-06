@@ -1,4 +1,4 @@
-package com.vlopatka.container.annotation
+package com.vlopatka.abstractum.annotation
 
 @Target(
     AnnotationTarget.FIELD,
